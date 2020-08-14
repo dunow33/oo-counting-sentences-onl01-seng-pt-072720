@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     sentences_array = self.split(/[.!?]/)
-    sentences_array.delete!("")
+    sentences_array.delete("")
     count = sentences_array.size
     #puts sentences_array
     count

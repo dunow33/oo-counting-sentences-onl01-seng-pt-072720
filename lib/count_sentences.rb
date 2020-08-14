@@ -18,7 +18,7 @@ class String
     sentences_array = self.split(/[.!?]/)
     sentences_array.delete!("")
     count = sentences_array.size
-    puts sentences_array
+    #puts sentences_array
     count
   end
 end
